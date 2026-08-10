@@ -18,7 +18,7 @@ The source data contains transaction-level information including:
 - Revenue metrics
 - Transaction timestamps
 
-The original data has been cleaned and transformed. Details of transformation process [here]([url](https://github.com/awojidetola/uci-analytics-project))
+The original data has been cleaned and transformed. Details of transformation process [here](https://github.com/awojidetola/uci-analytics-project)
 
 ---
 
