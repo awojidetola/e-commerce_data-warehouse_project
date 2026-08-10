@@ -27,7 +27,7 @@ The original data has been cleaned and transformed. Details of transformation pr
 
 A star schema was implemented. The image below contains more details of the schema design. 
 
-![Star Schema](schema_design.png)
+![Star Schema](star_schema.png)
 
 ### Design Decisions
 - Surrogate keys were introduced for all dimensions to create stable relationships between dimensions and the fact table.
