@@ -37,7 +37,8 @@ A star schema was implemented. The image below contains more details of the sche
 - InvoiceNo was retained directly within the fact table as a degenerate dimension because it represents a transactional identifier without additional descriptive attributes.
 
 - During modelling, an investigation revealed that 13 customers appeared with multiple countries within the dataset period. For this dataset, **the country field** represents where the customer **resides**
-This raised a Slowly Changing Dimension discussion regarding customer location history. However, an SCD Type 1 is applied because a Type 2 Implementation was not required for the analytical objectives of this project.
+
+- Although 13 customers appeared with multiple countries, historical location tracking was not required for the analytical objectives of this project. Therefore, a Type 1 approach was adopted while documenting the potential use of SCD Type 2
 
 
 ---
