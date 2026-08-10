@@ -48,7 +48,7 @@ A star schema was implemented. The image below contains more details of the sche
 ```text
 .
 ├── README.md
-├──schema_design.png
+├──star_schema.png
 ├── sql/
 │   ├── dim_customer.sql
 │   ├── dim_product.sql
